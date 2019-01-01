@@ -1,0 +1,20 @@
+{
+	// "name": "Google&SauceNao",
+	"name": "Lazy SauceNao",
+	"version": "1.0",
+	"author": "Aboveyunhai",
+	"description": "Search images via SauceNao",
+	"permissions": ["contextMenus"],
+	"icons": {
+		"16": "icon-bitty.png",
+		"48": "icon-small.png",
+		"128": "icon-large.png"
+	},
+	"browser_action":{
+		"default_icon": "icon-bitty.png"
+	},
+	"background": {
+		"scripts": ["background.js"]
+	},
+	"manifest_version": 2
+}
